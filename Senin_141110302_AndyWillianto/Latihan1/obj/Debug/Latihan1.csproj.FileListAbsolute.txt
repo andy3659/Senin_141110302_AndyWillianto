@@ -7,3 +7,6 @@ D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.Properties.Resour
 D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.csproj.GenerateResource.Cache
 D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.exe
 D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.pdb
+D:\Kuliah\dotNet Lanjutan\Senin_141110302_AndyWillianto\Latihan1\bin\Debug\Latihan1.exe.config
+D:\Kuliah\dotNet Lanjutan\Senin_141110302_AndyWillianto\Latihan1\obj\Debug\Latihan1.exe
+D:\Kuliah\dotNet Lanjutan\Senin_141110302_AndyWillianto\Latihan1\obj\Debug\Latihan1.pdb
