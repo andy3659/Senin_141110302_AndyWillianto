@@ -1,0 +1,9 @@
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\bin\Debug\Latihan1.exe.config
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\bin\Debug\Latihan1.exe
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\bin\Debug\Latihan1.pdb
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.csprojResolveAssemblyReference.cache
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.Form1.resources
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.Properties.Resources.resources
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.csproj.GenerateResource.Cache
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.exe
+D:\Kuliah\dotNet Lanjutan\Latihan1\Latihan1\obj\Debug\Latihan1.pdb
