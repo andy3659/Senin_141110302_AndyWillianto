@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace test.Properties
+namespace VoliWinForm.Properties
 {
 
 

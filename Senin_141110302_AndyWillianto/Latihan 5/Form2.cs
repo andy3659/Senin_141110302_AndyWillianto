@@ -12,12 +12,12 @@ namespace Latihan_5
 {
     public partial class Form2 : Form
     {
+        
         public Form2()
         {
             InitializeComponent();
             treeView1.Nodes.Add("Theme");
             treeView1.Nodes[0].Nodes.Add("Background Color");
-            
             theme.MdiParent = this;
         }
         public Form3 theme = new Form3();

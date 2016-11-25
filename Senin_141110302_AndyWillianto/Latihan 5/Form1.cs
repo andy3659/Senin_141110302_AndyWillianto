@@ -14,6 +14,11 @@ namespace Latihan_5
     {
         public int state;
         public string alamatFile = "";
+        public Color color
+        {
+            get { return isi.BackColor; }
+            set { isi.BackColor = value; }
+        }
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +41,11 @@ namespace Latihan_5
             saveFileDialog1.Filter = "RTF Files|*.rtf";
             openFileDialog1.DefaultExt = "*.rtf";
             openFileDialog1.Filter = "RTF Files|*.rtf";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void bold_Click(object sender, EventArgs e)
