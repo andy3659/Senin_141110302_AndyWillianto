@@ -20,17 +20,17 @@ namespace VoliWinForm
         {
             
         }
-        static int mod = 1000000007;
-        static private long kombinasi(int x, int y)
+        static int M = 1000000007;
+        static private long Combin(int x, int y)
         {
-            long hasil = 1;
+            long result = 1;
             for (int i = 0; i < y; i++)
             {
-                hasil = hasil * (x - i) / (i + 1);
+                result = result * (x - i) / (i + 1);
             }
-            return hasil % mod;
+            return result % M;
         }
-        static long pangkat(long x, long y)
+        static long pow(long x, long y)
         {
             if (y == 0)
             {
@@ -44,24 +44,24 @@ namespace VoliWinForm
             {
                 return 0;
             }
-            long setengah = pangkat(x, y / 2);
+            long setengah = pow(x, y / 2);
             if (y % 2 == 0)
             {
-                return (setengah * setengah) % mod;
+                return (setengah * setengah) % M;
             }
             else
             {
-                return (((setengah * setengah) % mod) * x) % mod;
+                return (((setengah * setengah) % M) * x) % M;
             }
         }
-        static long jawab(int a, int b)
+        static long hasil(int a, int b)
         {
-            int tempSwap = 0;
+            int temp = 0;
             if (a < b)
             {
-                tempSwap = a;
+                temp = a;
                 a = b;
-                b = tempSwap;
+                b = temp;
             }
             if (a < 25)
             {
@@ -75,7 +75,7 @@ namespace VoliWinForm
                 }
                 else
                 {
-                    return kombinasi(a + b - 1, b);
+                    return Combin(a + b - 1, b);
                 }
             }
             if (a - b != 2)
@@ -84,7 +84,7 @@ namespace VoliWinForm
             }
             else
             {
-                return kombinasi(48, 24) * pangkat(2, a - 26) % mod;
+                return Combin(48, 24) * pow(2, a - 26) % M;
             }
         }
 
@@ -92,7 +92,12 @@ namespace VoliWinForm
         {
             int text1 = Convert.ToInt32(Txt2.Text);
             int text2 = Convert.ToInt32(Txt1.Text);
-            TxtHasil.Text = jawab(text1,text2).ToString();
+            TxtHasil.Text = hasil(text1,text2).ToString();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
